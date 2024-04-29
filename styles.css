@@ -1,0 +1,65 @@
+body {
+    background-color: #ebe7e1;
+    text-align: center;
+}
+.title {
+    padding: 40px;
+    text-align: center;
+    background: #948979;
+    color: white;
+  }
+
+.navbar {
+    display: flex;
+    background-color: #3C5B6F;
+    justify-content: center;
+  }
+  
+  .navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .navbar a:hover {
+    background-color: #60839a;
+    color: white;
+  }
+
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .cardbody {
+    flex: 50%;
+    background-color: white;
+    padding: 20px;
+
+    li {
+        display: block;
+    }
+  }
+  
+  .countries {
+    flex: 50%;
+    background-color: #f1f1f1;
+    padding: 20px;
+
+    li {
+        display: inline; 
+        margin-right: 50px; 
+    }
+
+  }
+
+  .myfuture {
+    border-style:solid;
+    padding: 20px;
+    text-align: center;
+    background: #948979;
+    color: white;
+  }
+
+
